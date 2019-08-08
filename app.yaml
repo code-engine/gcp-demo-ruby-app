@@ -2,4 +2,5 @@
 runtime: ruby
 env: flex
 entrypoint: bundle exec rackup -p $PORT
+service: front-end
 # [END runtime]
